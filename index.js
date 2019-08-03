@@ -1,0 +1,22 @@
+var player1 = prompt("Player 1, What is your name?");
+var player2 = prompt("Player 2, What is your name?");
+
+document.querySelector("p.Player1").innerHTML = player1;
+document.querySelector("p.Player2").innerHTML = player2;
+
+
+function rollTheDice() {
+  var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+  var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
+  document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
+  document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
+
+  if (randomNumber1 === randomNumber2) {
+    document.querySelector("h1").innerHTML = "Draw!";
+  } else if (randomNumber1 < randomNumber2) {
+    document.querySelector("h1").innerHTML = (player2 + " WINS! 🚩");
+  } else {
+    document.querySelector("h1").innerHTML = (player1 + " WINS! 🚩");
+  }
+}
