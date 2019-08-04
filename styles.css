@@ -21,6 +21,7 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 4.5rem;
   color: #4ECCA3;
+  text-align: center;
 }
 
 p {
@@ -44,10 +45,10 @@ img {
   background-image: -ms-linear-gradient(top, #01060a, #285570);
   background-image: -o-linear-gradient(top, #01060a, #285570);
   background-image: linear-gradient(to bottom, #01060a, #285570);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 7px;
   color: #ffff;
   font-size: 30px;
   padding: 16px 25px 16px 25px;
@@ -81,7 +82,7 @@ footer {
 }
 
 .copyright {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   padding: 10px 0 25px;
   font-family: 'Merriweather', serif;
