@@ -1,14 +1,8 @@
-/*jshint esversion: 8 */
 var player1 = prompt("Player 1, What is your name?");
 var player2 = prompt("Player 2, What is your name?");
 
 document.querySelector("p.Player1").innerHTML = player1;
 document.querySelector("p.Player2").innerHTML = player2;
-
-window.addEventListener('load', () => {
-  rollTheDice();
-  registerSW();
-});
 
 
 function rollTheDice() {
@@ -33,14 +27,4 @@ function rollTheDice() {
 function playSound() {
   var audio = new Audio("sounds/dice.mp3");
   audio.play();
-}
-
-async function registerSW() {
-  if ('serviceWorker' in navigator) {
-    try {
-      await navigator.serviceWorker.register('./sw.js');
-    } catch (e) {
-      console.log(`SW registration failed`);
-    }
-  }
 }
