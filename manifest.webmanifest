@@ -1,0 +1,13 @@
+{
+    "name": "Roll The Dice",
+    "short_name": "RTD",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A game app.",
+    "icons": [{
+        "src": "images/dice1.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    }]
+}
