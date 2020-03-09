@@ -66,14 +66,14 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 0.5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
 
 .bottom-container {
-  padding: 40px 0 10px;
+  padding: 15px 0 10px;
 }
 
 .footer-link {
@@ -84,7 +84,7 @@ footer {
 .copyright {
   color: #fff;
   font-size: 0.8rem;
-  padding: 10px 0 25px;
+  padding: 5px 0 5px;
   font-family: 'Merriweather', serif;
 }
 

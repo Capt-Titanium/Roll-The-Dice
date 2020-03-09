@@ -1,8 +1,10 @@
-var player1 = prompt("Player 1, What is your name?");
-var player2 = prompt("Player 2, What is your name?");
+function editNames() {
+  var player1 = prompt("Player 1, What is your name?");
+  var player2 = prompt("Player 2, What is your name?");
 
-document.querySelector("p.Player1").innerHTML = player1;
-document.querySelector("p.Player2").innerHTML = player2;
+  document.querySelector("p.Player1").innerHTML = player1;
+  document.querySelector("p.Player2").innerHTML = player2;
+}
 
 
 function rollTheDice() {
