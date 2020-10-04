@@ -98,3 +98,19 @@ p .copyright {
 a:hover {
   color: #eaf6f6;
 }
+
+
+@media only screen and (max-width: 600px) {
+  h1{
+  	font-size: 5.5em;
+  }
+  p {
+    font-size: 2.4em;
+  }
+  p .copyright{
+  	font-size: 1.5em;
+  }
+  .butn{
+  	font-size: 40px;
+  }
+}
